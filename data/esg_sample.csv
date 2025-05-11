@@ -1,0 +1,101 @@
+org_id,org_name,sector,country,emissions_score,labor_compliance_score,governance_index,esg_flagged,report_date
+e7a73307-b0a4-436e-993b-a1453420ab3b,"Rodriguez, Figueroa and Sanchez",Healthcare,Australia,2.5,27.5,22.32,True,2024-05-30
+c4da5205-363e-419a-9232-a91ab4457fd5,Doyle Ltd,Healthcare,Brazil,8.69,42.19,2.98,True,2025-01-12
+24cc1962-ca7a-41c1-bd37-85724d921cec,"Mcclain, Miller and Henderson",Retail,Brazil,2.65,19.88,64.99,False,2025-01-19
+5d88563b-7b8c-4d9f-9268-620db8000041,Davis and Sons,Manufacturing,Brazil,27.82,86.93,75.88,True,2024-05-19
+6b43fb0e-27fa-4552-8386-85110b2aae70,"Guzman, Hoffman and Baldwin",Manufacturing,United States,27.79,21.53,76.35,True,2025-03-25
+948a161d-abf7-4b12-a0fe-648e2cbaff8a,"Gardner, Robinson and Lawrence",Manufacturing,Australia,35.9,34.4,26.45,True,2024-09-18
+43b137c0-0a4c-4cba-bf8c-48b1cc002d14,Blake and Sons,Retail,Australia,97.31,37.85,55.2,False,2024-07-20
+67e554f3-b21e-4823-902a-ac4cfdd07342,"Henderson, Ramirez and Lewis",Technology,Japan,6.96,66.13,77.31,True,2025-01-12
+f54a3af9-1b59-4575-8bf8-084f6bcab1d5,Garcia-James,Energy,Germany,27.8,63.57,36.48,False,2024-11-11
+79d5bfb6-721d-4c4f-a4c5-5173d60d025d,Abbott-Munoz,Technology,Japan,26.7,93.67,64.8,True,2024-08-11
+0b33c57e-35e8-4f4c-92c0-bc7fd89a336b,Blair PLC,Healthcare,India,16.34,37.95,98.95,True,2024-05-26
+1086df6f-fd5c-45f1-80d6-5c7a7935123c,Dudley Group,Finance,Australia,22.9,3.21,31.55,False,2025-04-08
+0ab9bc6f-9f99-494b-8ef3-594cf799e523,Arnold Ltd,Technology,Brazil,87.64,31.47,65.54,False,2024-06-16
+84d143cf-d995-4426-b1d0-8f078bc5bb19,"Mcclure, Ward and Lee",Manufacturing,India,26.49,24.66,56.14,False,2024-07-16
+beb62a7e-57e2-4308-b7b2-65ca1c237b86,Williams and Sons,Manufacturing,Brazil,39.94,21.93,99.75,False,2025-03-26
+7bf2aa77-ec97-4208-ab01-c35dcb9d5d71,Galloway-Wyatt,Energy,Australia,15.28,16.0,68.05,True,2024-10-26
+d4c22c4e-b2e2-433e-bf30-826bc35314d7,James Group,Manufacturing,Brazil,99.61,52.91,97.11,True,2024-05-28
+0637f1d5-92de-49a1-92db-e0c512a2df96,"Flowers, Martin and Kelly",Healthcare,Australia,68.17,53.7,26.68,False,2025-03-15
+4d82ab84-05c9-4ef4-9a32-db0fe9f51418,"Adams, Zuniga and Wong",Finance,Germany,15.82,0.32,72.21,False,2024-08-28
+e3f31639-01f9-463b-8a6e-636ede4f9bc8,"Reid, Ferguson and Sanchez",Technology,Brazil,91.26,87.05,29.84,True,2025-02-22
+a2493c72-19dc-442d-ae73-5edf8d6e1314,Gray-Mayo,Finance,India,53.94,77.86,53.04,True,2024-07-09
+be4dd54a-b091-4a80-8196-f2c3c5e58d8a,"Watts, Robinson and Nguyen",Finance,Germany,1.95,92.91,87.87,False,2025-01-09
+2ad096f3-14ab-4739-a897-56943c5ce771,Perez Inc,Energy,India,87.8,94.69,8.57,False,2025-04-06
+3c613016-8d77-4097-9317-a0d186416335,Morales-Jones,Retail,India,12.84,47.53,54.98,False,2024-08-14
+3da9275f-fc1a-4c7a-a944-8024a7a315c3,"Walter, Edwards and Rios",Retail,Germany,96.44,92.89,75.53,True,2024-05-11
+6ef17439-f531-479c-8e82-e47a5948c8fd,Wilkerson-Day,Finance,Germany,99.51,64.99,43.81,False,2025-03-11
+c57b65ce-8fbb-4638-b8fc-a2f17b64caa9,Baker and Sons,Technology,India,6.4,2.1,55.39,True,2025-05-08
+0e10a7f2-ac2c-46ad-bbd3-009549e5ad98,"Hoffman, Baker and Richards",Energy,Japan,63.11,22.89,90.54,False,2025-04-05
+f7d93a5f-282d-4afc-bb86-9da758b9b958,"Ross, Robinson and Bright",Retail,India,27.85,48.54,53.92,False,2025-01-07
+f462f9f7-1d7d-4043-9b59-20b80e8de131,"Snyder, Campos and Callahan",Manufacturing,Germany,19.04,9.69,43.11,False,2024-10-13
+f0c6679a-e140-410e-b0a6-49930827038f,Burton Ltd,Manufacturing,Japan,5.42,65.35,64.62,True,2024-10-17
+1cc35916-84d4-4860-824d-14ba8dcfd401,Carlson-Cruz,Healthcare,United States,80.06,10.93,19.16,False,2025-03-01
+0e3a630f-b7a2-487c-b737-720762f635ac,"Ferrell, Rice and Maddox",Manufacturing,India,27.85,24.98,92.33,False,2024-08-03
+9a2e195f-216e-44d4-8c97-8ffdd454261b,Frazier Inc,Energy,Australia,65.21,54.06,1.48,True,2025-01-10
+75941921-bd02-4d5e-a518-5c8b9717688e,"Dyer, Potter and Mack",Technology,Germany,48.56,21.37,40.1,True,2025-02-16
+a78e76b1-04a0-4858-90ab-376e0d2ed8a1,Rodriguez-Graham,Manufacturing,Australia,98.53,26.52,78.41,False,2024-12-16
+470bbc18-7b79-46d2-9838-4c40e0cdd696,Smith-Bowen,Manufacturing,Japan,95.73,99.54,55.58,False,2025-02-21
+97db9e49-f491-4bbc-a1e3-071edbe54145,"Baker, Mason and White",Technology,United States,21.77,5.85,73.57,True,2024-12-02
+9afd42e0-a44a-4d69-a713-5b9fd15cbbd6,Harrell LLC,Energy,Australia,58.42,50.29,85.27,True,2025-04-12
+153d06f1-0461-4353-ab01-882b6bd2ac72,"Romero, Gonzalez and Brooks",Retail,Australia,85.13,6.85,6.8,True,2024-10-17
+68f130fb-d68e-4fe8-9dc4-7169c3b39106,Ryan PLC,Energy,Brazil,24.62,59.45,61.94,False,2024-06-09
+e8356e26-24c6-45e2-ba41-6caec80e46fb,George Group,Retail,Brazil,52.28,93.47,20.43,False,2025-01-09
+3219214b-2e60-41d3-aded-bc29ae519122,Rodriguez LLC,Finance,Germany,13.09,64.55,45.72,True,2025-05-07
+84494d69-5ec5-4b4a-b745-77f32956492d,Allen-Allen,Manufacturing,Brazil,99.85,99.61,7.33,True,2024-08-25
+41cb97dc-7c31-4bb7-a747-30fde706e0e3,"Arroyo, Miller and Tucker",Finance,India,93.33,88.09,87.93,False,2024-12-17
+36cdf763-6553-4b3b-9135-89e8bfdf3c99,Spence PLC,Technology,Germany,83.37,70.35,61.17,True,2024-06-04
+1cd2331e-0b9d-4e51-b3ed-f1dafe50b169,Anderson Group,Retail,United States,93.18,10.36,87.81,False,2025-03-13
+80c1c1d5-8eea-4962-b15d-5ec046db27fe,"Martin, Rose and Obrien",Energy,Japan,55.32,27.23,60.48,False,2025-01-27
+40322648-0517-43ad-8c57-4212dc422b07,Hickman Ltd,Healthcare,Japan,85.29,50.54,25.11,True,2025-03-25
+dad82f4e-3a2c-4f2f-9fa1-5464a3e698e5,"Harris, Collins and Carney",Healthcare,Germany,82.93,4.41,33.36,True,2024-06-19
+dfc98622-5a67-4754-b9c3-b54c7a3713f1,"Brooks, Lam and Hayes",Finance,India,74.12,55.17,42.77,True,2025-03-15
+ea387697-a8e2-4a69-a3a6-de6b9596a952,Walker LLC,Energy,Japan,90.39,54.56,83.46,True,2024-10-03
+79e59aab-b9ab-4648-adf4-b27ee297496b,Chapman and Sons,Technology,Australia,30.83,89.9,79.61,True,2024-11-09
+17b6a059-e102-4427-b6c7-881434b2e1f6,"Robinson, Jones and Welch",Technology,Japan,24.95,10.28,78.01,False,2024-06-28
+a7f9cfd4-341b-4eaf-b714-9653e74b1ad9,Jones Inc,Healthcare,India,92.58,23.67,16.25,True,2024-10-12
+d1e5c32f-943f-4cdb-b8cf-f175ee90fe8f,Jones-Young,Energy,India,73.66,33.22,93.08,True,2024-12-26
+d8188208-f1c3-485a-860c-597a92d62bfc,"Washington, Ryan and Cummings",Technology,Japan,10.81,87.22,85.86,True,2025-01-29
+f4ea9e98-1a40-4b78-980e-2e03ead036b3,"Johnston, Sanchez and Kennedy",Manufacturing,United States,30.52,79.53,22.76,True,2024-06-08
+055ced47-30fb-440d-981c-864b6381f602,Lee-Davis,Technology,Germany,32.83,86.44,96.69,False,2024-11-13
+d3cc94f9-47e5-4c5e-ae81-acf0ea05cb99,Gomez-Jenkins,Healthcare,Brazil,39.97,98.11,53.62,True,2025-03-13
+231a63b8-b571-426a-aef7-789f21c79177,"Brown, Valdez and Lucas",Finance,India,58.06,98.36,3.83,False,2024-11-16
+da405546-6abb-40c2-85b7-3083633c4bc2,Powell LLC,Healthcare,United States,43.64,98.42,11.56,True,2025-01-01
+f9a4d890-05e9-4cfa-8e00-b33eeac62777,Wright and Sons,Energy,Japan,43.61,51.99,80.65,True,2024-11-06
+a138166e-a178-4707-b8e9-399c16b15f24,"West, Henderson and Ramirez",Manufacturing,Australia,94.89,92.08,62.32,True,2024-12-09
+4bb14cac-b58f-478a-bd4a-088abe37c905,Baxter Inc,Retail,United States,66.69,32.62,69.72,True,2025-02-02
+7a1db300-310a-40a1-bcd3-ed833e109c1e,Morton-Chase,Manufacturing,Japan,94.04,67.73,90.28,False,2024-10-16
+ffae6c9b-7e7a-44cf-bf8a-1cfc9ad805fd,Williams PLC,Retail,Australia,30.39,21.02,78.58,False,2024-09-15
+7e2c1d20-b25f-4535-9d81-70ada5ef4884,Novak and Sons,Manufacturing,Germany,67.56,51.12,79.37,True,2024-06-08
+754f445b-ea89-4441-a23f-41237d664758,Russell Group,Energy,United States,51.55,63.29,33.52,True,2024-06-01
+1b1da418-a177-46a5-9759-0ac6db1dbf99,Hancock Inc,Finance,India,80.66,14.74,4.62,False,2024-07-03
+f85890c9-4e74-45ab-a5ad-c25f88844ec9,Gray Group,Energy,Germany,41.44,62.98,19.44,False,2024-08-31
+542962f0-266b-471c-9fc0-53258567f97c,House-Glover,Manufacturing,India,14.76,68.76,89.27,True,2024-10-06
+cf4b1edf-9859-4b5a-94dc-d9479e4f492d,Henderson-Bernard,Technology,India,80.41,69.59,46.45,True,2025-03-10
+79645552-a2d3-4d0e-9fba-c49d21fa93e1,"Stanley, Tucker and Lee",Manufacturing,India,80.14,66.76,98.79,False,2024-09-27
+76f5119a-8274-4a40-866f-696f6e6aaabe,Novak PLC,Retail,Japan,89.2,42.67,90.69,False,2025-02-19
+6af1e7db-3a28-40a0-af6c-8e676d97ca02,"Daniels, Adkins and Brown",Healthcare,Germany,45.01,75.18,83.99,False,2024-08-18
+2644907e-2023-44cb-b992-7d0fe46f5a5c,"Woods, Calhoun and Schmidt",Manufacturing,Japan,23.92,43.99,71.35,True,2024-12-23
+53ea0914-c028-4e5a-969c-a192d05f8498,Yu Inc,Finance,United States,89.3,8.06,15.08,False,2024-05-21
+be0a1461-062b-4fbf-9ed1-4d215b4cadef,Jones Inc,Technology,Japan,21.4,41.49,33.09,False,2024-10-11
+3701e2dd-662d-4941-a340-b1a6f815dc01,"Hensley, Powell and David",Energy,India,83.29,38.95,76.98,True,2024-07-21
+b32664fd-4626-470a-801c-e21ed6005a31,"Sanchez, Wheeler and Harvey",Manufacturing,Germany,0.59,35.18,75.35,False,2024-08-09
+0e6788a6-c4d4-41c1-92ce-36c136145822,Sandoval-Cunningham,Healthcare,Japan,54.61,60.33,22.05,True,2024-12-23
+65255f90-29b4-4245-bd6e-b5df468d2c5a,Donovan-Harris,Manufacturing,Germany,2.9,33.61,67.91,False,2025-02-16
+4c88f1d4-32c2-49d0-a84a-4ff3522d3c79,"Edwards, Baker and Anderson",Manufacturing,India,98.07,53.41,90.69,True,2025-03-30
+5d395761-9dce-419c-bd63-f2ab8c7d6880,"Evans, Stewart and Walton",Healthcare,Germany,13.57,46.17,5.03,False,2024-11-25
+5d50ec97-1b88-4841-b633-022f34f9f754,Smith PLC,Technology,Germany,32.68,76.12,37.91,False,2025-01-02
+17943aca-1103-48cd-96fc-fd174f36e901,"Ferrell, Jones and Lewis",Energy,Germany,1.94,53.94,99.99,False,2025-01-17
+6651e0fe-dd82-45b4-946c-30241fcc73b1,Anderson-Bailey,Healthcare,Australia,78.12,65.18,75.42,True,2025-01-29
+f67e8192-bc21-47eb-b2d1-6379e575871d,Suarez LLC,Energy,Brazil,15.24,12.62,66.95,True,2024-09-15
+c77bd9fb-72b6-4de1-a02c-a84bbeab1e5c,Moore-Bass,Healthcare,United States,76.69,16.78,60.72,True,2025-02-17
+662289cd-8e12-43a7-82f9-3b4fa70df1af,"Turner, Riggs and Roman",Finance,Australia,57.87,92.89,57.58,False,2024-10-20
+bd71b414-2677-4034-8dc0-b016cadd5d0a,"Smith, Montoya and Evans",Healthcare,India,7.6,69.06,62.72,True,2024-05-20
+ba1e1406-38ee-419e-89d7-4f1dd9d13ee1,"Garcia, Humphrey and Baker",Finance,Japan,60.04,12.11,98.38,True,2024-11-15
+95beb7fe-478c-43a7-b558-f0d1ce968d60,Newton and Sons,Retail,Germany,66.15,6.9,64.75,True,2024-10-08
+95fe16b6-fb03-44dc-a215-b027f67fe576,Campbell-Clark,Manufacturing,Australia,43.35,36.22,89.16,False,2024-05-14
+2a930b56-d27f-4742-9880-0884b5e2621e,Harris-Walters,Technology,Germany,17.61,52.17,65.05,False,2024-09-15
+cb8972ce-b761-4e68-b37e-29c9091f4757,Wagner-King,Manufacturing,Japan,59.25,32.23,24.55,True,2024-12-20
+88d76634-bb83-441e-ad71-40dd0a227f93,Davis Group,Manufacturing,India,75.05,56.98,66.82,False,2025-04-27
+f3cea6ae-3702-4b32-b623-b4230079f748,Williams-Cook,Manufacturing,United States,18.18,21.21,79.78,False,2024-12-19
+6424f2a1-7516-444a-9828-ccc4f8628d81,Walsh LLC,Retail,Japan,88.01,55.58,51.66,True,2025-03-29
