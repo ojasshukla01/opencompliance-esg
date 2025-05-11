@@ -1,6 +1,6 @@
 # 🛠️ How to Run OpenCompliance-ESG (End-to-End Instructions)
 
-This guide will walk you through every step to run the ESG Risk Prediction platform — from setup to dashboard.
+This guide will walk you through every step to run the Environmental, Social, and Governance(ESG) Risk Prediction platform — from setup to dashboard.
 
 ---
 
