@@ -1,0 +1,101 @@
+org_id,org_name,sector,country,emissions_score,labor_compliance_score,governance_index,report_date
+ORG1000,"Gray, Lawson and Hernandez",Healthcare,Australia,4.06,19.38,60.81,2025-04-09
+ORG1001,"White, Mooney and Day",Retail,USA,71.58,94.9,28.85,2024-07-30
+ORG1002,Guzman LLC,Healthcare,India,58.23,99.72,59.76,2025-03-30
+ORG1003,"Foster, Wilkerson and Lopez",Retail,USA,57.65,40.57,88.62,2025-02-09
+ORG1004,"Cox, Lee and West",Healthcare,Australia,47.23,83.31,51.93,2023-06-08
+ORG1005,Perry LLC,Technology,Germany,48.05,1.3,38.09,2025-01-02
+ORG1006,Anderson-Smith,Energy,USA,80.98,59.51,59.63,2025-04-20
+ORG1007,Young-Wolf,Healthcare,Canada,98.9,37.81,47.27,2023-10-01
+ORG1008,Barry-Jefferson,Energy,India,4.28,0.08,73.53,2023-07-02
+ORG1009,Williams Group,Retail,Canada,3.94,62.9,60.34,2023-08-27
+ORG1010,"West, Williams and Evans",Healthcare,Canada,3.78,48.62,13.51,2023-07-13
+ORG1011,"Carter, Rivera and Cox",Healthcare,Australia,52.36,95.11,89.68,2023-12-10
+ORG1012,Frank and Sons,Finance,USA,80.69,53.91,71.2,2024-11-01
+ORG1013,Khan-Rodriguez,Retail,Canada,66.61,25.5,4.28,2025-04-06
+ORG1014,Holmes-Reed,Retail,Germany,69.18,51.58,66.57,2024-04-12
+ORG1015,"Lee, Reyes and Watson",Finance,USA,91.76,8.77,9.01,2025-03-10
+ORG1016,"Dawson, Brown and Long",Healthcare,Australia,72.43,20.42,20.42,2025-01-11
+ORG1017,Hawkins-Morris,Technology,Germany,92.7,47.93,73.6,2024-05-27
+ORG1018,"Foster, Bright and Nunez",Technology,Australia,65.07,41.95,19.66,2024-07-17
+ORG1019,Anderson-Lindsey,Technology,India,2.55,75.38,33.22,2024-09-01
+ORG1020,Smith-Prince,Technology,India,39.63,37.29,98.35,2023-12-08
+ORG1021,"Wilkins, Maxwell and Mayo",Retail,Canada,79.94,82.39,44.09,2023-10-23
+ORG1022,"Jones, Reynolds and Larsen",Retail,USA,28.72,14.9,45.35,2025-03-19
+ORG1023,"Phillips, Johnson and Simpson",Technology,India,70.09,49.67,7.28,2024-06-03
+ORG1024,"Smith, Sellers and Carlson",Healthcare,India,22.22,45.88,39.81,2024-04-28
+ORG1025,Sanders-Rodriguez,Technology,USA,89.82,51.86,92.79,2024-11-01
+ORG1026,Dunlap-Henson,Finance,Canada,60.36,53.96,13.6,2023-10-25
+ORG1027,Olson-Perkins,Technology,Canada,54.97,83.89,11.35,2024-09-26
+ORG1028,Cobb LLC,Retail,Australia,72.6,33.34,58.49,2024-05-08
+ORG1029,"Flynn, Steele and Patterson",Retail,Canada,5.72,14.66,35.81,2023-09-01
+ORG1030,"Wagner, Graham and Obrien",Finance,USA,31.72,47.6,83.23,2025-03-29
+ORG1031,Murray Group,Retail,Australia,67.11,17.09,42.1,2025-03-27
+ORG1032,Scott-Mccoy,Healthcare,Germany,60.95,55.5,55.6,2024-05-17
+ORG1033,Porter-Garcia,Healthcare,Canada,63.11,58.05,73.37,2025-02-10
+ORG1034,Choi-Delgado,Finance,India,18.75,61.91,8.02,2024-02-22
+ORG1035,Ramirez-Berger,Energy,India,72.39,4.7,28.95,2024-01-08
+ORG1036,Stone-Conrad,Energy,Germany,33.62,10.03,22.66,2023-08-16
+ORG1037,"Welch, Rush and Turner",Energy,USA,25.34,21.96,56.52,2024-08-01
+ORG1038,"White, Armstrong and Hamilton",Healthcare,Australia,34.15,88.31,12.99,2024-06-12
+ORG1039,Tran-Buchanan,Retail,India,0.18,85.83,62.57,2023-08-13
+ORG1040,Sims Inc,Healthcare,Canada,46.04,44.23,60.15,2024-11-21
+ORG1041,"Callahan, Lawson and Hernandez",Technology,India,26.84,67.74,62.05,2025-05-06
+ORG1042,"Nguyen, Wagner and Martinez",Healthcare,Australia,29.31,80.83,21.39,2024-11-28
+ORG1043,Watts-Myers,Healthcare,USA,1.21,13.15,89.37,2024-01-07
+ORG1044,Maddox-Herring,Energy,Australia,29.67,38.06,84.08,2024-06-28
+ORG1045,Hill LLC,Energy,Australia,76.05,34.14,34.68,2023-06-06
+ORG1046,Morse-Vega,Technology,Australia,77.01,76.79,62.98,2023-12-07
+ORG1047,Moore Ltd,Healthcare,Canada,78.36,53.98,44.69,2024-11-16
+ORG1048,Alexander Inc,Retail,Canada,13.07,78.18,48.78,2024-01-15
+ORG1049,"Wade, Young and Fleming",Healthcare,India,1.44,60.1,60.11,2024-04-06
+ORG1050,Davis-Anderson,Technology,Canada,46.48,83.74,64.34,2023-06-13
+ORG1051,"Thompson, Moore and Stewart",Finance,Canada,81.97,5.18,75.35,2024-04-02
+ORG1052,"Ryan, Smith and Robinson",Technology,Canada,60.82,41.6,45.96,2025-05-03
+ORG1053,Delgado-Hunter,Energy,Canada,38.81,46.04,10.73,2023-06-10
+ORG1054,Moore-Perkins,Energy,Canada,62.36,38.42,66.02,2024-11-02
+ORG1055,"Jackson, Bennett and Johnson",Finance,Germany,39.48,77.66,66.71,2025-04-30
+ORG1056,Green PLC,Energy,Australia,43.9,16.93,8.44,2025-01-25
+ORG1057,"Williams, Jones and Davies",Finance,Germany,56.37,1.73,13.03,2024-09-29
+ORG1058,"Griffith, Alvarado and Smith",Energy,Germany,30.41,0.28,69.23,2025-04-03
+ORG1059,Duarte-Warren,Finance,USA,0.0,83.15,18.4,2023-05-30
+ORG1060,Downs-Burch,Healthcare,Australia,7.25,45.94,45.77,2024-01-23
+ORG1061,Abbott LLC,Healthcare,USA,58.79,57.94,76.25,2024-12-09
+ORG1062,Carroll Inc,Finance,Germany,73.59,79.41,51.41,2023-12-06
+ORG1063,Johnson-Bright,Finance,India,49.42,10.12,79.38,2024-08-13
+ORG1064,Murphy PLC,Finance,Canada,59.61,11.25,79.59,2023-09-02
+ORG1065,"Wilson, Marshall and Brown",Retail,USA,80.97,94.44,32.55,2023-06-04
+ORG1066,Gonzalez Inc,Healthcare,India,18.9,43.43,7.51,2023-06-10
+ORG1067,"Wagner, Garza and Butler",Technology,Germany,24.58,59.74,62.65,2024-09-29
+ORG1068,Rodriguez-Douglas,Retail,Germany,86.92,36.62,52.36,2024-09-12
+ORG1069,"West, Mckinney and Ross",Retail,Australia,62.5,55.58,94.32,2025-05-03
+ORG1070,"Morgan, Marshall and Wheeler",Technology,Germany,5.97,65.5,5.33,2025-04-25
+ORG1071,Williams Group,Finance,USA,86.76,92.95,85.35,2023-08-17
+ORG1072,Price-Lopez,Retail,Canada,45.19,68.25,6.84,2023-09-24
+ORG1073,Prince Group,Finance,Australia,12.02,50.44,48.03,2023-10-06
+ORG1074,"Colon, Bailey and Willis",Finance,Germany,28.38,10.46,75.57,2023-06-13
+ORG1075,"Norris, Kerr and York",Healthcare,Canada,79.65,5.03,42.24,2023-12-01
+ORG1076,"Parker, Huff and Contreras",Finance,Germany,47.3,10.31,43.31,2025-04-22
+ORG1077,"Atkins, Smith and Fisher",Technology,India,96.16,70.98,53.11,2023-07-12
+ORG1078,Chung-Maldonado,Healthcare,Australia,85.21,17.48,39.15,2024-04-24
+ORG1079,"Lowe, Serrano and Bowman",Healthcare,Australia,30.76,36.24,61.2,2024-08-17
+ORG1080,"Johnson, Black and Carpenter",Technology,Australia,34.5,17.66,55.04,2023-12-08
+ORG1081,Horn-Welch,Technology,Australia,56.96,78.17,83.48,2025-01-11
+ORG1082,Casey Group,Technology,Germany,45.02,74.24,42.08,2023-06-19
+ORG1083,Bennett-Aguilar,Energy,Canada,95.8,66.31,22.77,2025-04-26
+ORG1084,"Knight, Glover and Foley",Healthcare,India,98.91,26.32,13.57,2025-02-01
+ORG1085,Acosta-Perez,Energy,USA,95.24,10.54,86.53,2024-12-23
+ORG1086,Reid Group,Finance,USA,26.54,14.46,17.35,2024-03-30
+ORG1087,Robinson Inc,Healthcare,USA,98.94,13.27,51.25,2023-12-12
+ORG1088,Jones-Harris,Technology,Germany,81.04,61.84,54.27,2023-10-01
+ORG1089,French-Warner,Healthcare,Canada,30.82,38.11,51.68,2025-04-08
+ORG1090,"Parker, Miranda and Jackson",Finance,Australia,43.09,56.14,19.32,2024-07-24
+ORG1091,"Carter, Burke and Jones",Retail,Canada,57.71,49.75,9.4,2024-05-27
+ORG1092,"Chandler, Brown and Gonzales",Technology,Canada,3.53,68.34,13.56,2024-01-01
+ORG1093,"Alvarado, Soto and Carter",Energy,Germany,41.75,68.83,75.42,2024-08-15
+ORG1094,"Shaw, Little and Griffith",Retail,Australia,52.48,60.25,42.13,2025-01-22
+ORG1095,Bell LLC,Technology,India,48.89,20.43,45.43,2024-08-11
+ORG1096,King and Sons,Technology,India,53.89,80.08,4.74,2024-08-30
+ORG1097,Mullen-Garcia,Retail,India,53.05,42.37,45.04,2024-03-12
+ORG1098,"Austin, Dixon and Garcia",Retail,Australia,81.93,43.41,84.76,2023-12-24
+ORG1099,"Welch, Perry and Myers",Energy,Australia,16.53,75.03,44.33,2024-05-13

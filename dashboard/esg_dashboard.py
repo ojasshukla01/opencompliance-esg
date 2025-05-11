@@ -2,10 +2,12 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 import joblib
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from pdf_report import generate_esg_pdf
 
 # --- Upload + Predict ---
-import joblib
-
 uploaded_file = st.sidebar.file_uploader("📤 Upload your ESG CSV", type=["csv"])
 default_df = pd.read_csv("output/esg_predictions.csv")
 
@@ -29,31 +31,6 @@ if uploaded_file:
 else:
     df = default_df.copy()
     st.info("Using default predictions from `output/esg_predictions.csv`.")
-
-
- # Load trained model
-    try:
-        model = joblib.load("output/esg_risk_model.pkl")
-        required_columns = ["emissions_score", "labor_compliance_score", "governance_index"]
-
-        if all(col in df.columns for col in required_columns):
-            df["predicted_esg_flagged"] = model.predict(df[required_columns])
-            st.success("✅ Predictions added to uploaded file.")
-        else:
-            missing = [col for col in required_columns if col not in df.columns]
-            st.warning(f"⚠️ Uploaded CSV is missing required columns: {missing}")
-    except Exception as e:
-        st.error(f"🚫 Failed to load model or predict: {e}")
-
-
-
-    # Ensure columns exist
-    try:
-        input_df = df[["emissions_score", "labor_compliance_score", "governance_index"]]
-        df["predicted_esg_flagged"] = model.predict(input_df)
-        st.success("✅ Predictions added for uploaded file!")
-    except Exception as e:
-        st.error(f"⚠️ Could not apply prediction: {e}")
 
 # --- Header ---
 st.title("🌱 ESG Risk Prediction Dashboard")
@@ -79,14 +56,27 @@ with st.expander("📋 What the fields mean"):
 
 # --- Sidebar Filters ---
 st.sidebar.header("🔎 Filter Data")
-country = st.sidebar.multiselect("Country", df["country"].unique(), default=df["country"].unique())
-sector = st.sidebar.multiselect("Sector", df["sector"].unique(), default=df["sector"].unique())
+
+# Country with select all
+all_countries = df["country"].dropna().unique().tolist()
+country = st.sidebar.multiselect("Country", ["All"] + all_countries, default=["All"])
+selected_countries = all_countries if "All" in country else country
+
+# Sector with select all
+all_sectors = df["sector"].dropna().unique().tolist()
+sector = st.sidebar.multiselect("Sector", ["All"] + all_sectors, default=["All"])
+selected_sectors = all_sectors if "All" in sector else sector
+
+# ESG Flag filter
 flagged = st.sidebar.radio("Predicted ESG Risk", ["All", True, False], index=0)
 
-filtered = df[df["country"].isin(country) & df["sector"].isin(sector)]
-if flagged != "All":
-    filtered = filtered[filtered["predicted_esg_flagged"] == flagged]
-
+# Apply filtering
+if "predicted_esg_flagged" in df.columns:
+    filtered = df[df["country"].isin(selected_countries) & df["sector"].isin(selected_sectors)]
+    if flagged != "All":
+        filtered = filtered[filtered["predicted_esg_flagged"] == flagged]
+else:
+    filtered = df.copy()
 
 # --- KPIs ---
 st.subheader("📊 KPI Summary")
@@ -121,12 +111,12 @@ if "predicted_esg_flagged" in filtered.columns:
 else:
     st.info("Upload a file or run predictions to see ESG risk counts by sector.")
 
-
 # --- ESG Score Distributions ---
 st.subheader("📈 ESG Score Distributions")
 score_cols = ["emissions_score", "labor_compliance_score", "governance_index"]
 for col in score_cols:
-    st.plotly_chart(px.histogram(filtered, x=col, nbins=30, title=f"Distribution of {col.replace('_', ' ').title()}"), use_container_width=True)
+    if col in filtered.columns:
+        st.plotly_chart(px.histogram(filtered, x=col, nbins=30, title=f"Distribution of {col.replace('_', ' ').title()}"), use_container_width=True)
 
 # --- Feature Importance ---
 st.subheader("🧠 Feature Importance (Random Forest)")
@@ -136,7 +126,18 @@ try:
     features = ["emissions_score", "labor_compliance_score", "governance_index"]
     importance_df = pd.DataFrame({"Feature": features, "Importance": importances})
     importance_df = importance_df.sort_values("Importance", ascending=True)
-
     st.bar_chart(importance_df.set_index("Feature"))
 except Exception as e:
     st.warning(f"Could not load feature importances: {e}")
+
+# --- Report Generation ---
+st.subheader("🧾 Download ESG Reports")
+if "predicted_esg_flagged" in filtered.columns and not filtered.empty:
+    selected_org = st.selectbox("Select organization to download PDF:", filtered["org_name"].unique())
+    selected_record = filtered[filtered["org_name"] == selected_org].iloc[0].to_dict()
+    if st.button("📥 Generate PDF Report"):
+        filename = generate_esg_pdf(selected_record)
+        with open(filename, "rb") as f:
+            st.download_button("⬇️ Download Report", f, file_name=filename, mime="application/pdf")
+else:
+    st.info("Apply filters and ensure predictions are available to download ESG reports.")
