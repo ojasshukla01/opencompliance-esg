@@ -21,6 +21,11 @@ class ESGResponse(BaseModel):
 # Init FastAPI app
 app = FastAPI(title="ESG Risk Prediction API")
 
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the ESG Prediction API! Visit /docs for Swagger."}
+
+
 @app.post("/predict", response_model=ESGResponse)
 def predict_esg(data: ESGRequest):
     try:
