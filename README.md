@@ -57,7 +57,7 @@ Let me know once done, and we’ll proceed to:
 
 ---
 
-## ✅ Step 1.2 – Define ESG Schema
+## ✅ Define ESG Schema
 
 Here is your schema file:
 
