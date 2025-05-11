@@ -42,3 +42,10 @@ jobs:
           path: |
             output/esg_risk_model.pkl
             output/esg_predictions.csv
+
+            - name: 🌐 Ping FastAPI endpoint
+                run: |
+                curl -X POST https://opencompliance-api.onrender.com/predict \
+              -H "Content-Type: application/json" \
+              -d '{"org_id": "GITHUB-CHECK", "emissions_score": 30, "labor_compliance_score": 85, "governance_index": 65}'
+      
