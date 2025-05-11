@@ -1,5 +1,8 @@
 
+duckdb
 pandas
+scikit-learn
 faker
 pydantic
 great_expectations
+streamlit

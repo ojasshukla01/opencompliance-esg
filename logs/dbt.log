@@ -1,0 +1,280 @@
+[0m11:55:00.410639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015954BBD160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000159528C42D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000159555DFB10>]}
+
+
+============================== 11:55:00.414900 | e94d2b94-55cf-4a8a-ad34-2a1aaa428197 ==============================
+[0m11:55:00.414900 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:55:00.415720 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\ojass\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init transformation', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:55:00.433705 [info ] [MainThread]: A project called transformation already exists here.
+[0m11:55:00.435448 [debug] [MainThread]: Command `dbt init` succeeded at 11:55:00.435292 after 0.17 seconds
+[0m11:55:00.435864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015955B0EEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015955B8F2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000159559FC7C0>]}
+[0m11:55:00.436285 [debug] [MainThread]: Flushing usage events
+[0m11:55:01.695400 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:55:54.190287 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCE00BD160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCDDDC42D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCE0ADFB10>]}
+
+
+============================== 11:55:54.194634 | 36f18433-417b-40b4-a4de-368a0d565eb0 ==============================
+[0m11:55:54.194634 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:55:54.195511 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\ojass\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init transformation', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:55:54.214785 [info ] [MainThread]: A project called transformation already exists here.
+[0m11:55:54.215874 [debug] [MainThread]: Command `dbt init` succeeded at 11:55:54.215749 after 0.14 seconds
+[0m11:55:54.216169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCE1006B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCE108B0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCE0EF47C0>]}
+[0m11:55:54.216477 [debug] [MainThread]: Flushing usage events
+[0m11:55:55.094528 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:56:10.516325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016CE258D160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016CE02842D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016CE2FAFB10>]}
+
+
+============================== 11:56:10.520362 | f8c76e8f-0d8d-4e75-91d0-a11178a20d11 ==============================
+[0m11:56:10.520362 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:56:10.521161 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\ojass\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init transformation', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:56:10.542542 [debug] [MainThread]: Starter project path: c:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\.venv\Lib\site-packages\dbt\include\starter_project
+[0m11:56:10.571746 [info ] [MainThread]: 
+Your new dbt project "transformation" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:56:10.572578 [info ] [MainThread]: Setting up your profile.
+[0m11:56:29.528506 [info ] [MainThread]: Profile transformation written to C:\Users\ojass\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:56:29.530035 [debug] [MainThread]: Command `dbt init` succeeded at 11:56:29.529897 after 19.13 seconds
+[0m11:56:29.530344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016CE34CAD70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016CE45E7E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016CE46647C0>]}
+[0m11:56:29.530658 [debug] [MainThread]: Flushing usage events
+[0m11:56:30.378829 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:00:01.363468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7EABED160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7E88E42D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7EB60FB10>]}
+
+
+============================== 12:00:01.368661 | e910f5ff-4f15-4e28-8f38-63167d0e820c ==============================
+[0m12:00:01.368661 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:00:01.369540 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ojass\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:00:01.397622 [info ] [MainThread]: dbt version: 1.9.4
+[0m12:00:01.398193 [info ] [MainThread]: python version: 3.13.0
+[0m12:00:01.398535 [info ] [MainThread]: python path: c:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\.venv\Scripts\python.exe
+[0m12:00:01.398874 [info ] [MainThread]: os info: Windows-11-10.0.26120-SP0
+[0m12:00:01.511000 [info ] [MainThread]: Using profiles dir at C:\Users\ojass\.dbt
+[0m12:00:01.511750 [info ] [MainThread]: Using profiles.yml file at C:\Users\ojass\.dbt\profiles.yml
+[0m12:00:01.512210 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\dbt_project.yml
+[0m12:00:01.533285 [info ] [MainThread]: adapter type: duckdb
+[0m12:00:01.533923 [info ] [MainThread]: adapter version: 1.9.3
+[0m12:00:01.534460 [info ] [MainThread]: Configuration:
+[0m12:00:01.534990 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:00:01.535521 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:00:01.536123 [info ] [MainThread]: Required dependencies:
+[0m12:00:01.536647 [debug] [MainThread]: Executing "git --help"
+[0m12:00:01.571204 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:00:01.571728 [debug] [MainThread]: STDERR: "b''"
+[0m12:00:01.572116 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:00:01.572589 [info ] [MainThread]: Connection:
+[0m12:00:01.573019 [info ] [MainThread]:   database: esg_transformed
+[0m12:00:01.573450 [info ] [MainThread]:   schema: main
+[0m12:00:01.573915 [info ] [MainThread]:   path: ../data/esg_transformed.duckdb
+[0m12:00:01.574284 [info ] [MainThread]:   config_options: None
+[0m12:00:01.574670 [info ] [MainThread]:   extensions: None
+[0m12:00:01.575057 [info ] [MainThread]:   settings: {}
+[0m12:00:01.575406 [info ] [MainThread]:   external_root: .
+[0m12:00:01.575751 [info ] [MainThread]:   use_credential_provider: None
+[0m12:00:01.576080 [info ] [MainThread]:   attach: None
+[0m12:00:01.576397 [info ] [MainThread]:   filesystems: None
+[0m12:00:01.576697 [info ] [MainThread]:   remote: None
+[0m12:00:01.576991 [info ] [MainThread]:   plugins: None
+[0m12:00:01.577282 [info ] [MainThread]:   disable_transactions: False
+[0m12:00:01.577765 [info ] [MainThread]: Registered adapter: duckdb=1.9.3
+[0m12:00:01.794970 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m12:00:01.924172 [debug] [MainThread]: Using duckdb connection "debug"
+[0m12:00:01.924570 [debug] [MainThread]: On debug: select 1 as id
+[0m12:00:01.924833 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:00:01.971787 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m12:00:01.972158 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m12:00:01.972452 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:00:01.973005 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:00:01.973379 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\dbt_project.yml> not found
+
+[0m12:00:01.973719 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  IO Error: Cannot open file "c:\users\ojass\onedrive\desktop\data engineering\opencompliance-esg\..\data\esg_transformed.duckdb": The system cannot find the path specified.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:00:01.974653 [debug] [MainThread]: Command `dbt debug` failed at 12:00:01.974485 after 0.76 seconds
+[0m12:00:01.974996 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:00:01.975306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7ED1982B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7ECE497F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7ECCB2360>]}
+[0m12:00:01.975682 [debug] [MainThread]: Flushing usage events
+[0m12:00:02.874167 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:02:03.191008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC008CD160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC7E5342D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC012EFB10>]}
+
+
+============================== 12:02:03.195133 | 99094c71-c325-4667-b343-af628b2936a8 ==============================
+[0m12:02:03.195133 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:02:03.195984 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\ojass\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init transformation', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:02:03.213862 [info ] [MainThread]: A project called transformation already exists here.
+[0m12:02:03.215581 [debug] [MainThread]: Command `dbt init` succeeded at 12:02:03.215428 after 0.20 seconds
+[0m12:02:03.216026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC01816B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC0189B0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CC017047C0>]}
+[0m12:02:03.216421 [debug] [MainThread]: Flushing usage events
+[0m12:02:04.094538 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:02:28.171816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ABA4AD160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019AB81B42D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ABAECFB10>]}
+
+
+============================== 12:02:28.175647 | 70bf7ad7-b8c6-43f0-98ed-daf197162f41 ==============================
+[0m12:02:28.175647 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:02:28.176451 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\ojass\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:02:28.196237 [info ] [MainThread]: dbt version: 1.9.4
+[0m12:02:28.196924 [info ] [MainThread]: python version: 3.13.0
+[0m12:02:28.197414 [info ] [MainThread]: python path: c:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\.venv\Scripts\python.exe
+[0m12:02:28.197889 [info ] [MainThread]: os info: Windows-11-10.0.26120-SP0
+[0m12:02:28.268085 [info ] [MainThread]: Using profiles dir at C:\Users\ojass\.dbt
+[0m12:02:28.268834 [info ] [MainThread]: Using profiles.yml file at C:\Users\ojass\.dbt\profiles.yml
+[0m12:02:28.269370 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\dbt_project.yml
+[0m12:02:28.273611 [info ] [MainThread]: adapter type: duckdb
+[0m12:02:28.274143 [info ] [MainThread]: adapter version: 1.9.3
+[0m12:02:28.274685 [info ] [MainThread]: Configuration:
+[0m12:02:28.275269 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:02:28.275725 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:02:28.276173 [info ] [MainThread]: Required dependencies:
+[0m12:02:28.276714 [debug] [MainThread]: Executing "git --help"
+[0m12:02:28.305533 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:02:28.306008 [debug] [MainThread]: STDERR: "b''"
+[0m12:02:28.306370 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:02:28.306823 [info ] [MainThread]: Connection:
+[0m12:02:28.307213 [info ] [MainThread]:   database: esg_transformed
+[0m12:02:28.307543 [info ] [MainThread]:   schema: main
+[0m12:02:28.307839 [info ] [MainThread]:   path: c:\users\ojass\onedrive\desktop\data engineering\data\esg_transformed.duckdb
+[0m12:02:28.308216 [info ] [MainThread]:   config_options: None
+[0m12:02:28.308563 [info ] [MainThread]:   extensions: None
+[0m12:02:28.308869 [info ] [MainThread]:   settings: {}
+[0m12:02:28.309158 [info ] [MainThread]:   external_root: .
+[0m12:02:28.309452 [info ] [MainThread]:   use_credential_provider: None
+[0m12:02:28.309748 [info ] [MainThread]:   attach: None
+[0m12:02:28.310016 [info ] [MainThread]:   filesystems: None
+[0m12:02:28.310296 [info ] [MainThread]:   remote: None
+[0m12:02:28.310577 [info ] [MainThread]:   plugins: None
+[0m12:02:28.310843 [info ] [MainThread]:   disable_transactions: False
+[0m12:02:28.311281 [info ] [MainThread]: Registered adapter: duckdb=1.9.3
+[0m12:02:28.465192 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m12:02:28.533725 [debug] [MainThread]: Using duckdb connection "debug"
+[0m12:02:28.534113 [debug] [MainThread]: On debug: select 1 as id
+[0m12:02:28.534368 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:02:28.548522 [debug] [MainThread]: DuckDB adapter: Error running SQL: select 1 as id
+[0m12:02:28.548922 [debug] [MainThread]: DuckDB adapter: Rolling back transaction.
+[0m12:02:28.549233 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:02:28.549846 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:02:28.550293 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\dbt_project.yml> not found
+
+[0m12:02:28.550719 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  IO Error: Cannot open file "c:\users\ojass\onedrive\desktop\data engineering\data\esg_transformed.duckdb": The system cannot find the path specified.
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:02:28.551654 [debug] [MainThread]: Command `dbt debug` failed at 12:02:28.551530 after 0.50 seconds
+[0m12:02:28.551955 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:02:28.552235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ABCA5C2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ABC7097F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019ABC5F6360>]}
+[0m12:02:28.552733 [debug] [MainThread]: Flushing usage events
+[0m12:02:29.408590 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:04:13.418896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF718DD160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF6F5E42D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF722FFB10>]}
+
+
+============================== 12:04:13.422871 | 1e75a634-952c-4c60-ae91-6224dc235012 ==============================
+[0m12:04:13.422871 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:04:13.423652 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\ojass\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:04:13.442505 [info ] [MainThread]: dbt version: 1.9.4
+[0m12:04:13.443115 [info ] [MainThread]: python version: 3.13.0
+[0m12:04:13.443561 [info ] [MainThread]: python path: c:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\.venv\Scripts\python.exe
+[0m12:04:13.443855 [info ] [MainThread]: os info: Windows-11-10.0.26120-SP0
+[0m12:04:13.514773 [info ] [MainThread]: Using profiles dir at C:\Users\ojass\.dbt
+[0m12:04:13.515577 [info ] [MainThread]: Using profiles.yml file at C:\Users\ojass\.dbt\profiles.yml
+[0m12:04:13.516136 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\dbt_project.yml
+[0m12:04:13.519976 [info ] [MainThread]: adapter type: duckdb
+[0m12:04:13.520516 [info ] [MainThread]: adapter version: 1.9.3
+[0m12:04:13.521159 [info ] [MainThread]: Configuration:
+[0m12:04:13.521691 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:04:13.522199 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:04:13.522706 [info ] [MainThread]: Required dependencies:
+[0m12:04:13.523286 [debug] [MainThread]: Executing "git --help"
+[0m12:04:13.556772 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:04:13.557247 [debug] [MainThread]: STDERR: "b''"
+[0m12:04:13.557617 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:04:13.558031 [info ] [MainThread]: Connection:
+[0m12:04:13.558375 [info ] [MainThread]:   database: esg_transformed
+[0m12:04:13.558708 [info ] [MainThread]:   schema: main
+[0m12:04:13.558994 [info ] [MainThread]:   path: C:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\data\esg_transformed.duckdb
+[0m12:04:13.559273 [info ] [MainThread]:   config_options: None
+[0m12:04:13.559540 [info ] [MainThread]:   extensions: None
+[0m12:04:13.559808 [info ] [MainThread]:   settings: {}
+[0m12:04:13.560092 [info ] [MainThread]:   external_root: .
+[0m12:04:13.560466 [info ] [MainThread]:   use_credential_provider: None
+[0m12:04:13.560850 [info ] [MainThread]:   attach: None
+[0m12:04:13.561156 [info ] [MainThread]:   filesystems: None
+[0m12:04:13.561426 [info ] [MainThread]:   remote: None
+[0m12:04:13.561686 [info ] [MainThread]:   plugins: None
+[0m12:04:13.561952 [info ] [MainThread]:   disable_transactions: False
+[0m12:04:13.562405 [info ] [MainThread]: Registered adapter: duckdb=1.9.3
+[0m12:04:13.718947 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m12:04:13.786667 [debug] [MainThread]: Using duckdb connection "debug"
+[0m12:04:13.787026 [debug] [MainThread]: On debug: select 1 as id
+[0m12:04:13.787247 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:04:13.893295 [debug] [MainThread]: SQL status: OK in 0.106 seconds
+[0m12:04:13.894206 [debug] [MainThread]: On debug: Close
+[0m12:04:13.894550 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:04:13.895260 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:04:13.895768 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\dbt_project.yml> not found
+
+[0m12:04:13.896722 [debug] [MainThread]: Command `dbt debug` failed at 12:04:13.896605 after 0.60 seconds
+[0m12:04:13.896989 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:04:13.897262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF73E1C2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF73AC9910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF739B0F30>]}
+[0m12:04:13.897618 [debug] [MainThread]: Flushing usage events
+[0m12:04:14.769257 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:05:28.506229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C35A1D160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C337242D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C3643FB10>]}
+
+
+============================== 12:05:28.510167 | fe3aa0e7-0342-4426-8c6d-115cc0b84ddd ==============================
+[0m12:05:28.510167 [info ] [MainThread]: Running with dbt=1.9.4
+[0m12:05:28.510879 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\ojass\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init transformation', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:05:28.529947 [debug] [MainThread]: Starter project path: c:\Users\ojass\OneDrive\Desktop\Data Engineering\opencompliance-esg\.venv\Lib\site-packages\dbt\include\starter_project
+[0m12:05:28.544389 [info ] [MainThread]: 
+Your new dbt project "transformation" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:05:28.545093 [info ] [MainThread]: Setting up your profile.
+[0m12:05:48.015779 [debug] [MainThread]: Command `dbt init` succeeded at 12:05:48.015541 after 19.63 seconds
+[0m12:05:48.016299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C36967230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C369EB2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C368547C0>]}
+[0m12:05:48.016670 [debug] [MainThread]: Flushing usage events
+[0m12:05:48.902152 [debug] [MainThread]: An error was encountered while trying to flush usage events

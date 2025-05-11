@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: esg_cleaned
+    description: "Cleaned and validated ESG data from esg_sample.csv"
+    columns:
+      - name: org_id
+        description: "Unique identifier for each organization"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_unique
+          - dbt_expectations.expect_column_values_to_not_be_null
+
+      - name: emissions_score
+        description: "Environmental emissions score (0-100)"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 100
+          - dbt_expectations.expect_column_values_to_not_be_null
+
+      - name: report_date
+        description: "Date when ESG report was submitted"
+        tests:
+          - dbt_expectations.expect_column_values_to_not_be_null
+
+      - name: stg_esg_source
+        description: "Raw ESG CSV data staged from file"
+
