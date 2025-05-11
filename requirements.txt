@@ -6,3 +6,4 @@ faker
 pydantic
 great_expectations
 streamlit
+plotly

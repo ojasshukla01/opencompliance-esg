@@ -70,3 +70,11 @@ python transformation/ml/train_model.py
 | Trained model | output/esg_risk_model.pkl |
 | Predictions CSV | output/esg_predictions.csv |
 | Validation reports | great_expectations/uncommitted/data_docs/ |
+
+# 🌱 OpenCompliance-ESG
+
+[![Streamlit App](https://img.shields.io/badge/Dashboard-Live-green?logo=streamlit)](https://opencompliance-esg-v9vsujgrphuxndtpx4pddh.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/Source-GitHub-blue?logo=github)](https://github.com/ojasshukla01/opencompliance-esg)
+
+**An open-source ESG Risk Intelligence platform** built with DuckDB, dbt, Great Expectations, and Scikit-learn.  
+Predicts ESG violations and visualizes sustainability risk using a fully automated pipeline.
