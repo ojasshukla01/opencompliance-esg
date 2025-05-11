@@ -1,6 +1,6 @@
 # 🌱 OpenCompliance-ESG
 
-**End-to-End ESG Risk Prediction Platform** using Python, dbt, DuckDB, Great Expectations, and Scikit-learn — entirely open source and reproducible.
+**End-to-End Environmental, Social, and Governance(ESG) Risk Prediction Platform** using Python, dbt, DuckDB, Great Expectations, and Scikit-learn — entirely open source and reproducible.
 
 ---
 
